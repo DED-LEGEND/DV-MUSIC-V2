@@ -78,13 +78,13 @@ LOGGER = logging.getLogger("SYSTEM")
 if os.path.exists("Config.env"):
     load_dotenv("Config.env")
 
-API_ID = int(getenv("API_ID", 0))
-API_HASH = getenv("API_HASH", None)
-BOT_TOKEN = getenv("BOT_TOKEN", None)
-STRING_SESSION = getenv("STRING_SESSION", None)
-MONGO_DB_URL = getenv("MONGO_DB_URL", None)
-OWNER_ID = int(getenv("OWNER_ID", 0))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", 0))
+API_ID = int(getenv("API_ID", "17617112"))
+API_HASH = getenv("API_HASH", "17a02e78f14c49b77989e964fcc95577")
+BOT_TOKEN = getenv("BOT_TOKEN", "6337070254:AAEJxvQwN1UGpqcpvhQavJ2F96_47i9TiBo")
+STRING_SESSION = getenv("STRING_SESSION", "BQEM0NgAocuI8rzF8ZnnPWl_D7l56Z8dlzDWkDsiR2y9AA7VtDGEoZmsZaG-ifskrYxaEiWw4khuarsH06HyCLenByHwa5sk-nDN1jOnR2b3Rl8ZDwZKYCiw3u1UwkbFTts-adHNakLHU1M4DONET1ywPbZfJkeucTOZJxmlNT3Wh1L3hr8e-uKpqG9bOElKX3ecas4ifzi_X9hTxcNhjyfYEbOWIBKgVlfowf6pAiPoMO7fho_E7JE0Hli5GvSkNgFMlYq_r5xABMv0j_wf1LY4UQham5WCxMD7ofaRBc3Qrk1svsXmki720q1utjuU0EcNnfdbBnzErQb3vGivXFFDuqED3AAAAAHKGlt3AA")
+MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://hnyx:wywyw2@cluster0.9dxlslv.mongodb.net/?retryWrites=true&w=majority")
+OWNER_ID = int(getenv("OWNER_ID", "6458155947"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001989708830"))
 START_IMAGE_URL = getenv("START_IMAGE_URL", None)
 
 
